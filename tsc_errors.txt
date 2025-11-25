@@ -1,0 +1,11 @@
+app/components/CommentsList.tsx(428,104): error TS1501: This regular expression flag is only available when targeting 'es2018' or later.
+app/submit/page.tsx(488,34): error TS2367: This comparison appears to be unintentional because the types 'PostType' and '"timeline"' have no overlap.
+app/submit/page.tsx(489,38): error TS2304: Cannot find name 'TimelineEditor'.
+app/submit/page.tsx(490,50): error TS7006: Parameter 'file' implicitly has an 'any' type.
+auth.ts(2,15): error TS2614: Module '"next-auth"' has no exported member 'NextAuthOptions'. Did you mean to use 'import NextAuthOptions from "next-auth"' instead?
+auth.ts(91,21): error TS7031: Binding element 'token' implicitly has an 'any' type.
+auth.ts(91,28): error TS7031: Binding element 'user' implicitly has an 'any' type.
+auth.ts(91,34): error TS7031: Binding element 'trigger' implicitly has an 'any' type.
+auth.ts(91,43): error TS7031: Binding element 'session' implicitly has an 'any' type.
+auth.ts(122,25): error TS7031: Binding element 'session' implicitly has an 'any' type.
+auth.ts(122,34): error TS7031: Binding element 'token' implicitly has an 'any' type.

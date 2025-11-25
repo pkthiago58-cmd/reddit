@@ -1,0 +1,42 @@
+Prisma schema loaded from prisma\schema.prisma
+Error: Prisma schema validation - (get-config wasm)
+Error code: P1012
+error: Error validating: This line is invalid. It does not start with any known Prisma schema keyword.
+  -->  prisma\schema.prisma:1
+   | 
+   | 
+ 1 | ﻿datasource db {
+ 2 |   provider = "sqlite"
+   | 
+
+
+error: Error validating: This line is invalid. It does not start with any known Prisma schema keyword.
+  -->  prisma\schema.prisma:2
+   | 
+ 1 | ﻿datasource db {
+ 2 |   provider = "sqlite"
+ 3 |   url      = "file:./dev.db"
+   | 
+
+
+error: Error validating: This line is invalid. It does not start with any known Prisma schema keyword.
+  -->  prisma\schema.prisma:3
+   | 
+ 2 |   provider = "sqlite"
+ 3 |   url      = "file:./dev.db"
+ 4 | }
+   | 
+
+
+error: Error validating: This line is invalid. It does not start with any known Prisma schema keyword.
+  -->  prisma\schema.prisma:4
+   | 
+ 3 |   url      = "file:./dev.db"
+ 4 | }
+ 5 | 
+   | 
+
+Validation Error Count: 4
+[Context: getConfig]
+
+Prisma CLI Version : 6.19.0
